@@ -1,0 +1,47 @@
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+@font-face {
+  font-family: 'icon';
+  src: url('../fonts/line-awesome.ttf');
+}
+
+i {
+  font-family: icon !important;
+}
+
+#example_filter, #example_paginate {
+  float: inline-end;
+}
+
+.content {
+  margin-top: 35px !important;
+}
+
+.edit-back {
+  gap: 10px;
+}
+
+.login-page {
+  height: 100vh !important;
+}
+
+@media screen and (max-width: 995px) {
+  .login-page {
+    height: 100% !important;
+    padding: 5% 0;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .login-page {
+    padding: 0;
+  }
+
+  .edit-back {
+    flex-direction: column;
+    align-items: start !important;
+    gap: 5px;
+  }
+}
