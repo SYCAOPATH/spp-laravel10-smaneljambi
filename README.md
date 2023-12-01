@@ -13,8 +13,8 @@ Teknologi dan library yang digunakan :
 ## Configuration
 Berikut cara mengistall atau mengklone aplikasi pembayaran spp ke local storage atau kompoter yang digunakan :
 1. Lakukan cloning atau download source codenya, kemudian ekstrak data zipnya..
-https://github.com/SYCAOPATH/spp-laravel10-smaneljambi.git
 ```
+https://github.com/SYCAOPATH/spp-laravel10-smaneljambi.git
 ```
 2. Install dependensi yang dibutuhkan (supaya ada vendor)
 ```
@@ -65,7 +65,7 @@ http://127.0.0.1:8000
         <tr>
             <td rowspan="5">Siswa</td>
             <td>8020210238</td>
-            <td>80210238</td>
+            <td>adminadmin</td>
         </tr>
     </tbody>
 </table>
